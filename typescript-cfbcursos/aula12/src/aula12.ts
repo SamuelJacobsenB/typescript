@@ -1,8 +1,8 @@
-function logar(user: string, password: string): void {
-    console.log(`User: ${user}, Senha: ${password}`);
+function login(user: string, password: string): void {
+    console.log(`User: ${user}, Password: ${password}`);
 };
 
-logar('Samuel', 'senha1234');
+login('Samuel', 'password1234');
 
 function soma2(n1: number, n2: number): number {
     let res: number = n1 + n2;
